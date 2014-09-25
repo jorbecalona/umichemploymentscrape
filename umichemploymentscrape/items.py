@@ -8,6 +8,7 @@
 import scrapy
 
 
+
 class JobListingItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
@@ -17,7 +18,8 @@ class JobListingItem(scrapy.Item):
     employer = scrapy.Field()
     category = scrapy.Field()
 
-class JobDetailItem(scrapy.Item):
+class JobItem(scrapy.Item):
+    job_title = scrapy.Field()
     job_ID = scrapy.Field()
     job_funding_source = scrapy.Field()
     employer = scrapy.Field()
@@ -36,3 +38,10 @@ class JobDetailItem(scrapy.Item):
     work_location = scrapy.Field()
     phone_number = scrapy.Field()
     fax_number = scrapy.Field()
+
+jobFields = [
+    'job_title', 'job_ID', 'job_funding_source', 'employer', 'category',
+    'job_description', 'educational_value', 'job_requirements',
+    'hours', 'compensation', 'when_job_is_avaliable', 'start_date',
+    'end_date', 'contact_person', 'contact_email', 'supervisor',
+    'work_location', 'phone_number', 'fax_number']
