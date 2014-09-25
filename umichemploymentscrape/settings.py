@@ -15,3 +15,5 @@ NEWSPIDER_MODULE = 'umichemploymentscrape.spiders'
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'umichemploymentscrape (+http://www.yourdomain.com)'
+
+LOG_FILE='scrape.log'

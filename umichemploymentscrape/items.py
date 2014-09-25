@@ -39,7 +39,7 @@ class JobItem(scrapy.Item):
     phone_number = scrapy.Field()
     fax_number = scrapy.Field()
 
-jobFields = [
+JobFields = [
     'job_title', 'job_ID', 'job_funding_source', 'employer', 'category',
     'job_description', 'educational_value', 'job_requirements',
     'hours', 'compensation', 'when_job_is_avaliable', 'start_date',

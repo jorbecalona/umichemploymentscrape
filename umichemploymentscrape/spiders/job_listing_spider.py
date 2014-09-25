@@ -1,13 +1,13 @@
-import requests
-import json
-from bs4 import BeautifulSoup
+# import requests
+# import json
+# from bs4 import BeautifulSoup
 
-from sets import Set
+# from sets import Set
 import scrapy
 # from scrapy.contrib.spiders import CrawlSpider, Rule
 # from scrapy.contrib.linkextractors import LinkExtractor
 from scrapy.http import Request
-from umichemploymentscrape.items import *
+from umichemploymentscrape.items import JobItem, JobFields
 from scrapy import FormRequest
 
 
@@ -19,10 +19,12 @@ class JobListingSpider(scrapy.Spider):
     # rootURL = "https://studentemployment.umich.edu/JobX_FindAJob.aspx?s=1&ls=1&sdgpi=1"
     allowed_domains = ["umich.edu"]
     totalListings = 0
+    totalListingsParsed = 0
     totalListPages = 0
     # start_urls = [rootURL + "/brazzers-porn-directory/sites"]
     start_urls = ["https://studentemployment.umich.edu/JobX_ChooseFundingSources.aspx"]
     job_urls = []
+    # debugmode = True
     # allScenes = Set()
 
     def parse(self, response):
@@ -49,7 +51,8 @@ class JobListingSpider(scrapy.Spider):
         self.job_urls.extend(self.get_job_links(response))
         # print self.job_urls
 
-        if curr_listing_page < self.totalListPages:
+        # if curr_listing_page < self.totalListPages:
+        if curr_listing_page < 1:
             curr_listing_page += 1
             nextPageURL = self.nextURLBase + str(curr_listing_page)
             print "NextPageURL: %s, CurrPage: %d" % (nextPageURL, curr_listing_page)
@@ -60,8 +63,8 @@ class JobListingSpider(scrapy.Spider):
             )
         else:
             print "*********Done Collecting URLS***********"
-            for index, joburl in enumerate(self.job_urls):
-                if (index < 3):
+            for INDEX, joburl in enumerate(self.job_urls):
+                if (INDEX < 80):
                     yield Request(self.rootURL + str(joburl), callback=self.parse_job)
 
     def madeitmaybe(self, response):
@@ -87,9 +90,65 @@ class JobListingSpider(scrapy.Spider):
         return urls[ix1:ix2]
 
     def parse_job(self, response):
-        f = jobFields
-        r = response
-        i = JobItem()
-        i[f[0]] = r.css('td.GraphicShell-Header1-Off').xpath('text').extract()
-        print "Item[%s]: %d" % (f[0], 0)
-        self.totalListings += 1
+        # JobFields = JobFields
+        self.totalListingsParsed += 1
+        print "\n********************Parsing Job: %d********************" % self.totalListingsParsed
+        R = response
+        item = JobItem()
+
+        # raw_str = R.css('td.GraphicShell-Header1-Off').xpath('text()').extract()[0].encode('utf-8')
+        # out_str = str(' '.join(raw_str.split()))
+        # item[FieldTag] = out_str
+
+        # sites = dict( [(site['href'].split('/')[-1], site.string)  for site in sitePage.select("span.fav-title.a-bold a")])
+
+
+        raw_strs = response.css('table.RTG tr:nth-of-type(n+3) td:nth-of-type(2)')
+        # print raw_strs
+
+
+
+        # print "raw_strs_len: %d" % len(raw_strs)
+        # index = 0
+        item[str(JobFields[0])] = self.getStr(response, response.css('td.GraphicShell-Header1-Off'))
+        print "[%s]: %s" % (str(JobFields[0]), self.getStr(response, response.css('td.GraphicShell-Header1-Off')))
+        for index, elt in enumerate(raw_strs): # iteration over elts in table
+            # print "index %d" % index
+            # if (index == 0): # If its the JobTitle, aka the first index
+            #     item[str(JobFields[index])] = self.getStr(R.css('td.GraphicShell-Header1-Off'))
+            #     print "[%s]: %s" % (str(JobFields[index]), self.getStr(R.css('td.GraphicShell-Header1-Off')))
+            # else:
+             # print "index %d" % index
+             # newField = elt.xpath('text()').extract()[0].encode('utf-8')
+             newField = self.getStr(response, elt)
+             newFieldStr = str(' '.join(newField.split()))
+             # print "[%s]: %s" % (str(JobFields[index]), newFieldStr)
+             item[str(JobFields[int(index)])] = newFieldStr #elt.xpath('text()').extract()[0].encode('utf-8')#elt.css('td:nth-of-type(2)'))
+             print "[%s]: %s" % (JobFields[index], item[JobFields[index]])
+            # index = index + 1
+            # if self.debugmode:
+                # print "[%s]: %s" % (JobFields[index], item[JobFields[index]])
+        # for key, value in item.keys():
+        #     if self.debugmode:
+        #         print "[%s]: %s" % (key, value)
+        return item
+
+            # out_str = ""
+            # for index, FieldTag in enumerate(JobFields): # iteration over field tags
+            #     raw_str = ""
+            #     if not index: # If its the JobTitle, aka the first index
+            #         out_str = getStr(R.css('td.GraphicShell-Header1-Off'))
+            #     else:
+            #         raw_str = elt.css('td:nth-of-type(2)').xpath('text()').extract()[0].encode('utf-8')
+            #         out_str = getStr(elt.css('td:nth-of-type(2)'))
+            #     out_str = str(' '.join(raw_str.split()))
+            #     JobListItem[FieldTag] = out_str
+
+    def getStr(self, response, sel):
+        raw_str_in = sel.xpath('text()').extract()[0].encode('utf-8')
+        theoutstring = str(' '.join(raw_str_in.split()))
+        if not theoutstring:
+            return ""
+        else:
+            return theoutstring
+        # return str(' '.join(raw_str_in.split()))
