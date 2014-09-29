@@ -24,16 +24,17 @@ class JobListingSpider(scrapy.Spider):
     totalListPages = 0
     start_urls = ["https://studentemployment.umich.edu/JobX_ChooseFundingSources.aspx"]
     job_urls = []
-    verbosemode = True
+    verbosemode = False
     dbName = 'umichscrape'
     jsonFileName = 'jobs.json'
+
     # allScenes = Set()
 
     def parse(self, response):
         yield FormRequest.from_response(response,
             formname='aspnetForm',
             formdata={'Skin$body$FundingSourceChoices$0': '1', 'Skin$body$FundingSourceChoices$1': '0'},
-            meta={'curr_listing_page': 1,  'flag': True},
+            meta={'curr_listing_page': 1,  'flag': False},
             callback=self.after_login)
 
     def after_login(self, response):
@@ -41,29 +42,33 @@ class JobListingSpider(scrapy.Spider):
         curr_listing_page = int(response.request.meta['curr_listing_page'])
         yield Request(
             self.rootStart,
-            meta={'curr_listing_page': curr_listing_page, 'flag': True},
+            meta={'curr_listing_page': curr_listing_page, 'flag': False},
             callback=self.page_rs_50)
 
     def page_rs_50(self, response):
-        self.totalListings = self.get_total_listings(response)
-        print "Total Job Listings: %d" % self.totalListings
+        flag = response.request.meta['flag']
+        if not flag:
+            self.totalListings = self.get_total_listings(response)
+            print "Total Job Listings: %d" % self.totalListings
         self.totalListPages = (self.totalListings / 50) + 1 #for the url
         curr_listing_page = int(response.request.meta['curr_listing_page'])
-        flag = response.request.meta['flag']
         self.job_urls.extend(self.get_job_links(response))
         # print self.job_urls
 
         # if curr_listing_page < 1:
         if curr_listing_page < self.totalListPages:
+            print "Current Listing PagePage: %d" % (curr_listing_page)
             curr_listing_page += 1
             nextPageURL = self.nextURLBase + str(curr_listing_page)
-            print "NextPageURL: %s, CurrPage: %d" % (nextPageURL, curr_listing_page)
+            # if not verbosemode:
+            # print "NextPageURL: %s, CurrPage: %d" % (nextPageURL, curr_listing_page)
             yield Request(
                 nextPageURL,
                 meta={'curr_listing_page': curr_listing_page, 'flag': True},
                 callback=self.page_rs_50
             )
         else:
+            # if not verbosemode:
             print "*********Done Collecting URLS***********"
             for INDEX, joburl in enumerate(self.job_urls):
                 yield Request(self.rootURL + str(joburl), callback=self.parse_job)
@@ -93,19 +98,19 @@ class JobListingSpider(scrapy.Spider):
     def parse_job(self, response):
         # JobFields = JobFields
         self.totalListingsParsed += 1
-        print "\n********************Parsing Job: %d********************" % self.totalListingsParsed
+        print "Parsing Job: %d" % self.totalListingsParsed
         # R = response
         item = JobItem()
         raw_strs = response.css('table.RTG tr:nth-of-type(n+3) td:nth-of-type(2)')
         item[str(JobFields[0])] = self.getStr(response, response.css('td.GraphicShell-Header1-Off'))
-        if verbosemode:
-            print "[%s]: %s" % (str(JobFields[0]), self.getStr(response, response.css('td.GraphicShell-Header1-Off')))
+        # if not verbosemode:
+        # print "[%s]: %s" % (str(JobFields[0]), self.getStr(response, response.css('td.GraphicShell-Header1-Off')))
         for index, elt in enumerate(raw_strs): # iteration over elts in table
              newField = self.getStr(response, elt)
              newFieldStr = str(' '.join(newField.split()))
              item[str(JobFields[int(index+1)])] = newFieldStr
-             if verbosemode:
-                print "[%s]: %s" % (JobFields[index+1], item[JobFields[index+1]])
+             # if not verbosemode:
+             # print "[%s]: %s" % (JobFields[index+1], item[JobFields[index+1]])
         # item['_id'] = item['job_ID']
         return item
 
