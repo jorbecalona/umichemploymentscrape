@@ -7,8 +7,9 @@ import scrapy
 # from scrapy.contrib.spiders import CrawlSpider, Rule
 # from scrapy.contrib.linkextractors import LinkExtractor
 from scrapy.http import Request
-from umichemploymentscrape.items import JobItem, JobFields
+from umichemploymentscrape.items import *
 from scrapy import FormRequest
+# import csv
 
 
 class JobListingSpider(scrapy.Spider):
@@ -92,7 +93,7 @@ class JobListingSpider(scrapy.Spider):
         # JobFields = JobFields
         self.totalListingsParsed += 1
         print "\n********************Parsing Job: %d********************" % self.totalListingsParsed
-        R = response
+        # R = response
         item = JobItem()
         raw_strs = response.css('table.RTG tr:nth-of-type(n+3) td:nth-of-type(2)')
         item[str(JobFields[0])] = self.getStr(response, response.css('td.GraphicShell-Header1-Off'))
@@ -100,14 +101,15 @@ class JobListingSpider(scrapy.Spider):
         for index, elt in enumerate(raw_strs): # iteration over elts in table
              newField = self.getStr(response, elt)
              newFieldStr = str(' '.join(newField.split()))
-             item[str(JobFields[int(index)])] = newFieldStr #elt.xpath('text()').extract()[0].encode('utf-8')#elt.css('td:nth-of-type(2)'))
-             print "[%s]: %s" % (JobFields[index], item[JobFields[index]])
+             item[str(JobFields[int(index+1)])] = newFieldStr #elt.xpath('text()').extract()[0].encode('utf-8')#elt.css('td:nth-of-type(2)'))
+             print "[%s]: %s" % (JobFields[index+1], item[JobFields[index+1]])
         return item
 
     def getStr(self, response, sel):
         raw_str_in = sel.xpath('text()').extract()[0].encode('utf-8')
         theoutstring = str(' '.join(raw_str_in.split()))
         if not theoutstring:
-            return ""
+            return "N/A"
         else:
             return theoutstring
+            

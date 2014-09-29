@@ -45,3 +45,10 @@ JobFields = [
     'hours', 'compensation', 'when_job_is_avaliable', 'start_date',
     'end_date', 'contact_person', 'contact_email', 'supervisor',
     'work_location', 'phone_number', 'fax_number']
+
+JobSiteRawFields = [
+'Job ID', 'Job Funding Source', 'Employer', 'Category',
+'Job Description', 'Educational Value', 'Job Requirements',
+'Hours', 'Compensation', 'When Job is Available', 'Start Date',
+'End Date', 'Contact Person', 'Contact E-mail',
+'Supervisor', 'Work Location', 'Phone Number', 'Fax Number']
