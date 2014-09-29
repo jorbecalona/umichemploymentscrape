@@ -25,6 +25,8 @@ class JobListingSpider(scrapy.Spider):
     start_urls = ["https://studentemployment.umich.edu/JobX_ChooseFundingSources.aspx"]
     job_urls = []
     verbosemode = True
+    dbName = 'umichscrape'
+    jsonFileName = 'jobs.json'
     # allScenes = Set()
 
     def parse(self, response):
@@ -51,8 +53,8 @@ class JobListingSpider(scrapy.Spider):
         self.job_urls.extend(self.get_job_links(response))
         # print self.job_urls
 
-        # if curr_listing_page < self.totalListPages:
-        if curr_listing_page < 1:
+        # if curr_listing_page < 1:
+        if curr_listing_page < self.totalListPages:
             curr_listing_page += 1
             nextPageURL = self.nextURLBase + str(curr_listing_page)
             print "NextPageURL: %s, CurrPage: %d" % (nextPageURL, curr_listing_page)
