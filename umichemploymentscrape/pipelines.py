@@ -25,8 +25,11 @@ class couchdbPipeline(object):
     def __init__(self):
         self.server = couchdb.Server()
         self.db = self.server['umichscrape']
+        self.file = open('jobs.json', 'wb')
 
     def process_item(self, item, spider):
         item['_id'] = item['job_ID']
         self.db.save(dict(item))
+        line = json.dumps(dict(item)) + "\n"
+        self.file.write(line)
         return item
