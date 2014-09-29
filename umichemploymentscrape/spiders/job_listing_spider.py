@@ -57,7 +57,7 @@ class JobListingSpider(scrapy.Spider):
 
         # if curr_listing_page < 1:
         if curr_listing_page < self.totalListPages:
-            print "Current Listing PagePage: %d" % (curr_listing_page)
+            print "Current Listing Page#: %d" % (curr_listing_page)
             curr_listing_page += 1
             nextPageURL = self.nextURLBase + str(curr_listing_page)
             # if not verbosemode:
