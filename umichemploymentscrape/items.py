@@ -38,6 +38,7 @@ class JobItem(scrapy.Item):
     work_location = scrapy.Field()
     phone_number = scrapy.Field()
     fax_number = scrapy.Field()
+    _id = scrapy.Field()
 
 JobFields = [
     'job_title', 'job_ID', 'job_funding_source', 'employer', 'category',
@@ -46,9 +47,9 @@ JobFields = [
     'end_date', 'contact_person', 'contact_email', 'supervisor',
     'work_location', 'phone_number', 'fax_number']
 
-JobSiteRawFields = [
-'Job ID', 'Job Funding Source', 'Employer', 'Category',
-'Job Description', 'Educational Value', 'Job Requirements',
-'Hours', 'Compensation', 'When Job is Available', 'Start Date',
-'End Date', 'Contact Person', 'Contact E-mail',
-'Supervisor', 'Work Location', 'Phone Number', 'Fax Number']
+# JobSiteRawFields = [
+# 'Job ID', 'Job Funding Source', 'Employer', 'Category',
+# 'Job Description', 'Educational Value', 'Job Requirements',
+# 'Hours', 'Compensation', 'When Job is Available', 'Start Date',
+# 'End Date', 'Contact Person', 'Contact E-mail',
+# 'Supervisor', 'Work Location', 'Phone Number', 'Fax Number']

@@ -21,4 +21,5 @@ LOG_FILE='scrape.log'
 ITEM_PIPELINES = {
     'umichemploymentscrape.pipelines.UmichemploymentscrapePipeline': 300,
     'umichemploymentscrape.pipelines.JsonPipeline': 800,
+    'umichemploymentscrape.pipelines.couchdbPipeline': 200,
 }

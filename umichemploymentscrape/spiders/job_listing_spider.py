@@ -100,8 +100,9 @@ class JobListingSpider(scrapy.Spider):
         for index, elt in enumerate(raw_strs): # iteration over elts in table
              newField = self.getStr(response, elt)
              newFieldStr = str(' '.join(newField.split()))
-             item[str(JobFields[int(index+1)])] = newFieldStr #elt.xpath('text()').extract()[0].encode('utf-8')#elt.css('td:nth-of-type(2)'))
+             item[str(JobFields[int(index+1)])] = newFieldStr
              print "[%s]: %s" % (JobFields[index+1], item[JobFields[index+1]])
+        # item['_id'] = item['job_ID']
         return item
 
     def getStr(self, response, sel):
