@@ -22,7 +22,6 @@ class JobListingSpider(scrapy.Spider):
     totalListings = 0
     totalListingsParsed = 0
     totalListPages = 0
-    # start_urls = [rootURL + "/brazzers-porn-directory/sites"]
     start_urls = ["https://studentemployment.umich.edu/JobX_ChooseFundingSources.aspx"]
     job_urls = []
     # debugmode = True
@@ -112,4 +111,3 @@ class JobListingSpider(scrapy.Spider):
             return "N/A"
         else:
             return theoutstring
-            
