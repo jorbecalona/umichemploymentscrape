@@ -7,8 +7,12 @@
 import json
 
 class UmichemploymentscrapePipeline(object):
+    def process_item(self, item, spider):
+        return item
+
+class JsonPipeline(object):
     def __init__(self):
-        self.file = open('items.jl', 'wb')
+        self.file = open('jobs.json', 'wb')
 
     def process_item(self, item, spider):
         line = json.dumps(dict(item)) + "\n"

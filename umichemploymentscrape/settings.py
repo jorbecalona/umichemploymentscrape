@@ -17,3 +17,8 @@ NEWSPIDER_MODULE = 'umichemploymentscrape.spiders'
 #USER_AGENT = 'umichemploymentscrape (+http://www.yourdomain.com)'
 
 LOG_FILE='scrape.log'
+
+ITEM_PIPELINES = {
+    'umichemploymentscrape.pipelines.UmichemploymentscrapePipeline': 300,
+    'umichemploymentscrape.pipelines.JsonPipeline': 800,
+}
