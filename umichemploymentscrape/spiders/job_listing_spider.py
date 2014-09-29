@@ -24,7 +24,7 @@ class JobListingSpider(scrapy.Spider):
     totalListPages = 0
     start_urls = ["https://studentemployment.umich.edu/JobX_ChooseFundingSources.aspx"]
     job_urls = []
-    # debugmode = True
+    verbosemode = True
     # allScenes = Set()
 
     def parse(self, response):
@@ -96,12 +96,14 @@ class JobListingSpider(scrapy.Spider):
         item = JobItem()
         raw_strs = response.css('table.RTG tr:nth-of-type(n+3) td:nth-of-type(2)')
         item[str(JobFields[0])] = self.getStr(response, response.css('td.GraphicShell-Header1-Off'))
-        print "[%s]: %s" % (str(JobFields[0]), self.getStr(response, response.css('td.GraphicShell-Header1-Off')))
+        if verbosemode:
+            print "[%s]: %s" % (str(JobFields[0]), self.getStr(response, response.css('td.GraphicShell-Header1-Off')))
         for index, elt in enumerate(raw_strs): # iteration over elts in table
              newField = self.getStr(response, elt)
              newFieldStr = str(' '.join(newField.split()))
              item[str(JobFields[int(index+1)])] = newFieldStr
-             print "[%s]: %s" % (JobFields[index+1], item[JobFields[index+1]])
+             if verbosemode:
+                print "[%s]: %s" % (JobFields[index+1], item[JobFields[index+1]])
         # item['_id'] = item['job_ID']
         return item
 

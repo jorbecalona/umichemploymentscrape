@@ -24,9 +24,9 @@ class JsonPipeline(object):
 class couchdbPipeline(object):
     def __init__(self):
         self.server = couchdb.Server()
-        self.db = server['umichscrape']
+        self.db = self.server['umichscrape']
 
     def process_item(self, item, spider):
         item['_id'] = item['job_ID']
-        db.save(dict(item))
+        self.db.save(dict(item))
         return item
