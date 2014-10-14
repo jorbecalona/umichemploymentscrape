@@ -1,0 +1,1893 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"jobapp",
+				"jobapp_settings"
+			],
+			[
+				"job",
+				"jobapp_settings	(module)"
+			],
+			[
+				"resum",
+				"resumeResp"
+			],
+			[
+				"setM",
+				"setMechanizeFileUpload"
+			],
+			[
+				"submi",
+				"submitMechanizeForm"
+			],
+			[
+				"file",
+				"files=files"
+			],
+			[
+				"um",
+				"umichscrape"
+			],
+			[
+				"couch",
+				"couchdbPipeline"
+			],
+			[
+				"jo",
+				"job_ID"
+			],
+			[
+				"js",
+				"json_data	(statement)"
+			],
+			[
+				"ut",
+				"utf-8"
+			],
+			[
+				"raw_",
+				"raw_strs"
+			],
+			[
+				"Job",
+				"JobItem"
+			],
+			[
+				"j",
+				"JobListingSpider  (class)"
+			],
+			[
+				"un",
+				"umichemploymentscrape"
+			],
+			[
+				"ex",
+				"extract"
+			],
+			[
+				"x",
+				"xpath('text"
+			],
+			[
+				"umich",
+				"umichemploymentscrape"
+			],
+			[
+				"total",
+				"totalListings"
+			],
+			[
+				"next",
+				"nextURLBase"
+			],
+			[
+				"cur",
+				"curr_listing_page"
+			],
+			[
+				"curr",
+				"curr_listing"
+			],
+			[
+				"get_",
+				"get_job_links"
+			],
+			[
+				"sce",
+				"sceneCount"
+			],
+			[
+				"xpath",
+				"xpath('@href"
+			],
+			[
+				"Brazzers",
+				"BrazzersSceneItem	(class)"
+			],
+			[
+				"BangBros",
+				"BangBrosSceneItem"
+			],
+			[
+				"Bang",
+				"BangBrosSiteItem	(class)"
+			],
+			[
+				"con",
+				"container"
+			],
+			[
+				"Gotham",
+				"Gotham-Bold"
+			],
+			[
+				"Goth",
+				"Gotham-Bold"
+			],
+			[
+				"block",
+				"blockquote	Tag"
+			],
+			[
+				"schoo",
+				"schoolLocs	(global, instance)"
+			],
+			[
+				"all",
+				"all_users_obj"
+			],
+			[
+				"User",
+				"UserProperties	(global, instance)"
+			],
+			[
+				"all_user",
+				"all_users_obj	(global, instance)"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "umichemploymentscrape/dataManage.py",
+			"settings":
+			{
+				"buffer_size": 392,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "umichemploymentscrape/settings.py",
+			"settings":
+			{
+				"buffer_size": 733,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "umichemploymentscrape/items.py",
+			"settings":
+			{
+				"buffer_size": 1778,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "umichemploymentscrape/jobapp.py",
+			"settings":
+			{
+				"buffer_size": 5648,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Jonathan/OneDrive/Code/Source/extra/uniscrape/scrape1/scrape1/spiders/bangbros_spider.py",
+			"settings":
+			{
+				"buffer_size": 8259,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Jonathan/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+			"settings":
+			{
+				"buffer_size": 715,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 357.0,
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"package Control",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"syn ja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"syn py",
+				"Set Syntax: Python"
+			],
+			[
+				"qui",
+				"Git: Quick Add"
+			],
+			[
+				"quick",
+				"Git: Quick Add"
+			],
+			[
+				"ad",
+				"Git: Quick Add"
+			],
+			[
+				"syn python",
+				"Set Syntax: Python"
+			],
+			[
+				"commi",
+				"Git: Commit"
+			],
+			[
+				"syn ",
+				"Set Syntax: Python"
+			],
+			[
+				"quick c",
+				"Git: Quick Commit"
+			],
+			[
+				"git status",
+				"Git: Status"
+			],
+			[
+				"git com",
+				"Git: Commit"
+			],
+			[
+				"syn",
+				"Set Syntax: Python"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"syn pyh",
+				"Set Syntax: Python"
+			],
+			[
+				"git ad",
+				"Git: Quick Add"
+			],
+			[
+				"syn pyt",
+				"Set Syntax: Python"
+			],
+			[
+				"git commit",
+				"Git: Quick Commit"
+			],
+			[
+				"theme",
+				"ColorSchemeSelector: Select Color Scheme"
+			],
+			[
+				"syn bat",
+				"Set Syntax: Batch File"
+			],
+			[
+				"synta bat",
+				"Set Syntax: Batch File"
+			],
+			[
+				"syn html",
+				"Set Syntax: HTML"
+			],
+			[
+				"li",
+				"LiveStyle: Install WebKit extension"
+			],
+			[
+				"rand sch",
+				"ColorSchemeSelector: Random Color Scheme"
+			],
+			[
+				"scheme",
+				"ColorSchemeSelector: Random Color Scheme"
+			],
+			[
+				"synta html",
+				"Set Syntax: HTML"
+			],
+			[
+				"INSTA",
+				"Package Control: Install Package"
+			],
+			[
+				"sync",
+				"SublimePackageSync: Sync All"
+			],
+			[
+				"ins num",
+				"Insert Nums"
+			],
+			[
+				"ins nu",
+				"Insert Nums"
+			],
+			[
+				"inser",
+				"Insert Nums"
+			],
+			[
+				"num",
+				"Insert Nums"
+			],
+			[
+				"theme ",
+				"ColorSchemeSelector: Select Color Scheme"
+			],
+			[
+				"syntax python",
+				"Set Syntax: Python"
+			],
+			[
+				"add fo",
+				"Project: Add Folder"
+			],
+			[
+				"synta java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"syntax ja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"sublim",
+				"Sublimall: Upload"
+			],
+			[
+				"pack",
+				"Package Syncing: Enable Syncing"
+			],
+			[
+				"pa",
+				"Package Control: List Packages"
+			],
+			[
+				"in",
+				"Package Syncing: Define Sync Folder"
+			],
+			[
+				"subl",
+				"Sublimall: Retrieve"
+			],
+			[
+				"sub",
+				"Sublimall: Retrieve"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"package sy",
+				"Package Syncing: Enable Syncing"
+			]
+		],
+		"width": 464.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Jonathan/OneDrive/Code/Source/umichemploymentscrape",
+		"/C/Users/Jonathan/OneDrive/Code/Source/umichemploymentscrape/umichemploymentscrape",
+		"/C/Users/Jonathan/OneDrive/Code/Source/umichemploymentscrape/umichemploymentscrape/spiders",
+		"/C/Users/Jonathan/OneDrive/Code/Source/extra/uniscrape/scrape1",
+		"/C/Users/Jonathan/OneDrive/Code/Source/extra/uniscrape/scrape1/scrape1",
+		"/C/Users/Jonathan/OneDrive/Code/Source/extra/uniscrape/scrape1/scrape1/spiders"
+	],
+	"file_history":
+	[
+		"/C/Users/Jonathan/coding/mean/README.md",
+		"/C/Users/Jonathan/OneDrive/Code/Source/extra/uniscrape/scrape1/bangbrosBIG.json",
+		"/C/Users/Jonathan/OneDrive/Code/Source/umichemploymentscrape/umichemploymentscrape/jobapptest.py",
+		"/C/Program Files/MongoDB 2.6 Standard/config/mongodb.conf",
+		"/C/Program Files/MongoDB 2.6 Standard/log/mongo.log",
+		"/C/Users/Jonathan/OneDrive/Code/Source/umichemploymentscrape/umichemploymentscrape/jobapp_settings.py",
+		"/C/Users/Jonathan/OneDrive/Code/Source/umichemploymentscrape/umichemploymentscrape/pipelines.py",
+		"/C/Users/Jonathan/Downloads/AirParrot.v1.1.3.X64.Incl.Keygen.and.Patch-Lz0/linezer0.nfo",
+		"/C/Users/Jonathan/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Jonathan/AppData/Local/Temp/Temp1_image-hammerhead-lpv79.zip/android-info.txt",
+		"/C/Users/Jonathan/AppData/Roaming/Mozilla/Firefox/Profiles/em6hhu79.default/iMacros/Macros/Logins/LoginAll.iim",
+		"/C/Users/Jonathan/AppData/Roaming/Mozilla/Firefox/Profiles/em6hhu79.default/iMacros/Macros/Other/#Everything3.iim",
+		"/C/Users/Jonathan/AppData/Roaming/Mozilla/Firefox/Profiles/em6hhu79.default/iMacros/Macros/Logins/BangBrosBetaLoginNext.iim",
+		"/C/Users/Jonathan/AppData/Roaming/Mozilla/Firefox/Profiles/em6hhu79.default/iMacros/Macros/Logins/BrazzersLoginFromRK.iim",
+		"/C/Users/Jonathan/OneDrive/Code/Source/umichemploymentscrape/angular-phonecat/app/partials/phone-list.html",
+		"/C/Users/Jonathan/OneDrive/Code/Source/umichemploymentscrape/angular-phonecat/app/index.html",
+		"/C/Users/Jonathan/OneDrive/Code/Source/umichemploymentscrape/umichemploymentscrape/spiders/job_listing_spider.py",
+		"/C/Users/Jonathan/OneDrive/Code/Source/umichemploymentscrape/angular-phonecat/app/js/controllers.js",
+		"/C/Users/Jonathan/OneDrive/Code/Source/extra/bbscrape/bbscrape/bbscrape.py",
+		"/C/Users/Jonathan/OneDrive/Code/Source/umichemploymentscrape/jobs2.json",
+		"/C/Users/Jonathan/OneDrive/Code/Source/umichemploymentscrape/angular-seed/app/view1/view1.js",
+		"/C/Users/Jonathan/OneDrive/Code/Source/umichemploymentscrape/angular-seed/app/view2/view2.html",
+		"/C/Users/Jonathan/OneDrive/Code/Source/umichemploymentscrape/angular-seed/app/view1/view1.html",
+		"/C/Users/Jonathan/OneDrive/Code/Source/umichemploymentscrape/angular-seed/app/index.html",
+		"/C/Users/Jonathan/OneDrive/Code/Source/umichemploymentscrape/umichemploymentscrape/settings.py",
+		"/C/Users/Jonathan/OneDrive/Code/Source/umichemploymentscrape/scrape.log",
+		"/C/Users/Jonathan/OneDrive/Book1.csv",
+		"/C/Users/Jonathan/OneDrive/Code/Source/umichemploymentscrape/joblist.json",
+		"/C/Python27/Lib/site-packages/scrapy/settings/__init__.py",
+		"/C/Users/Jonathan/OneDrive/Code/Source/umichemploymentscrape/runScrape.py",
+		"/C/Users/Jonathan/OneDrive/Code/Source/extra/uniscrape/scrape1/scrape1/spiders/bangbros_spider.py",
+		"/C/Users/Jonathan/OneDrive/Code/Source/extra/uniscrape/scrape1/scrape1/spiders/brazzers_spider.py",
+		"/C/Users/Jonathan/OneDrive/Code/Source/umichemploymentscrape/umichemploymentscrape/runScrape.py",
+		"/C/Users/Jonathan/OneDrive/Code/Source/extra/uniscrape/scrape1/scrape1/items.py",
+		"/C/Program Files (x86)/Apache Software Foundation/CouchDB/README.txt",
+		"/C/Program Files (x86)/Apache Software Foundation/CouchDB/share/couchdb/server/main.js",
+		"/C/Program Files (x86)/Apache Software Foundation/CouchDB/bin/erl.ini",
+		"/C/Users/Jonathan/OneDrive/Code/Source/umichemploymentscrape/CouchDB-0.8-py2.6.egg",
+		"/C/Users/Jonathan/OneDrive/Code/Source/extra/bbscrape-portia/bbscrape/bbscrape.py",
+		"/C/Users/Jonathan/OneDrive/Code/Source/extra/uniscrape/scrape1/brazzers3.json",
+		"/C/Users/Jonathan/OneDrive/Code/Source/extra/uniscrape/scrape1/scrape.log",
+		"/C/Users/Jonathan/Downloads/Creative-resume/Fonts to download.txt",
+		"/C/Users/Jonathan/OneDrive/Code/Source/extra/uniscrape/scrape1/brazzers1.json",
+		"/C/Users/Jonathan/OneDrive/Code/Source/extra/uniscrape/scrape1/scrape1/settings.py",
+		"/C/Users/Jonathan/OneDrive/Code/Source/extra/uniscrape/scrape1/scrape1/spiders/__init__.py",
+		"/C/Users/Jonathan/OneDrive/Code/Source/extra/uniscrape/scrape1/scrape1/pipelines.py",
+		"/C/Users/Jonathan/OneDrive/Code/Source/extra/uniscrape/scrape1/scrape1/spiders/bangbrossite_spider.py",
+		"/C/Users/Jonathan/OneDrive/Code/Source/extra/uniscrape/scrape1/bangbros.json",
+		"/C/Users/Jonathan/OneDrive/Code/Source/extra/uniscrape/scrape1/scrape1/spiders/dmoz_spider.py",
+		"/C/Users/Jonathan/OneDrive/Code/Source/extra/uniscrape/scrape1/bbrossites.json",
+		"/C/Users/Jonathan/OneDrive/Code/Source/extra/uniscrape/scrape1/Books",
+		"/C/Users/Jonathan/OneDrive/Code/Source/centro-autofill/frenchwork2.py",
+		"/C/Users/Jonathan/OneDrive/Code/geteltsbyname.js",
+		"/C/Users/Jonathan/OneDrive/Code/Source/centro-autofill/frenchworktester.py",
+		"/C/Users/Jonathan/OneDrive/Code/GitSource/genfind.py",
+		"//Stevejobs/f/Extras/Reality Kings/sitemap1.xml",
+		"/C/Users/Jonathan/AppData/Roaming/Mozilla/Firefox/Profiles/em6hhu79.default/iMacros/Macros/Logins/RealityKingsLogin.iim",
+		"/C/Users/Jonathan/AppData/Roaming/Mozilla/Firefox/Profiles/em6hhu79.default/iMacros/Macros/#Current.iim",
+		"/C/Users/Jonathan/AppData/Roaming/Mozilla/Firefox/Profiles/em6hhu79.default/iMacros/Macros/Other/#Everything2.iim",
+		"/C/Users/Jonathan/AppData/Roaming/Mozilla/Firefox/Profiles/em6hhu79.default/iMacros/Macros/Logins/BangBrosBetaLogin.iim",
+		"/C/Users/Jonathan/AppData/Roaming/Mozilla/Firefox/Profiles/em6hhu79.default/iMacros/Macros/Demo-Firefox/SI-Run-Test.js",
+		"/C/Users/Jonathan/AppData/Roaming/Mozilla/Firefox/Profiles/em6hhu79.default/iMacros/Macros/Demo-Firefox/SI-Send-Macro-Code.js",
+		"/C/Users/Jonathan/AppData/Roaming/Mozilla/Firefox/Profiles/em6hhu79.default/iMacros/Macros/Demo-Firefox/Loginall.js",
+		"/C/Users/Jonathan/AppData/Roaming/Mozilla/Firefox/Profiles/em6hhu79.default/iMacros/Macros/Demo-Firefox/SI-Test-Macro1.iim",
+		"/C/Users/Jonathan/AppData/Roaming/Mozilla/Firefox/Profiles/em6hhu79.default/iMacros/Macros/Demo-Firefox/Self-Test.js",
+		"/C/Users/Jonathan/AppData/Roaming/Mozilla/Firefox/Profiles/em6hhu79.default/iMacros/Macros/Logins/Loginall.js",
+		"/C/Users/Jonathan/AppData/Roaming/Mozilla/Firefox/Profiles/em6hhu79.default/iMacros/Macros/Members Login.iim",
+		"/C/Users/Jonathan/AppData/Roaming/Mozilla/Firefox/Profiles/em6hhu79.default/iMacros/Macros/Logins/#BangBrosBetaLogin.iim",
+		"/C/Users/Jonathan/AppData/Roaming/Mozilla/Firefox/Profiles/em6hhu79.default/iMacros/Macros/#Everything2.iim",
+		"/C/Users/Jonathan/AppData/Roaming/Mozilla/Firefox/Profiles/em6hhu79.default/iMacros/Macros/#BangBrosBetaSkip.iim",
+		"/C/Users/Jonathan/AppData/Roaming/Mozilla/Firefox/Profiles/em6hhu79.default/iMacros/Macros/#Everything.iim",
+		"/C/Users/Jonathan/AppData/Roaming/Mozilla/Firefox/Profiles/em6hhu79.default/iMacros/Macros/#loginfromrealtk2.iim",
+		"/C/Users/Jonathan/AppData/Roaming/Mozilla/Firefox/Profiles/em6hhu79.default/iMacros/Macros/#realtkToBZ.iim",
+		"/C/Users/Jonathan/AppData/Roaming/Mozilla/Firefox/Profiles/em6hhu79.default/iMacros/Macros/Demo-Firefox/Tabs.iim",
+		"/C/Users/Jonathan/AppData/Roaming/Mozilla/Firefox/Profiles/em6hhu79.default/iMacros/Macros/Demo-Firefox/Javascript-Dialogs.iim",
+		"/C/Users/Jonathan/AppData/Roaming/Mozilla/Firefox/Profiles/em6hhu79.default/iMacros/Macros/#LoginFromRealtk.iim",
+		"/C/Users/Jonathan/Documents/Websites/decaweb/index.html",
+		"/C/Users/Jonathan/OneDrive/Code/Source/parsedl/testdownload.py",
+		"/C/Users/Jonathan/AppData/Roaming/Mozilla/Firefox/Profiles/em6hhu79.default/iMacros/Macros/#Brazzers.iim",
+		"/C/Users/Jonathan/Documents/Websites/decaweb/_include/css/main.css",
+		"/C/Users/Jonathan/Documents/Websites/decaweb/Images/fabric_plaid/fabric_plaid/readme.txt",
+		"/C/Users/Jonathan/Documents/Websites/decaweb/shortcodes.html",
+		"/C/Users/Jonathan/Documents/Websites/decaweb/#meetingnewpeople.txt",
+		"//tsclient/C/Users/Public/onepagerapp.css",
+		"/C/Users/Jonathan/Documents/Websites/decaweb/_include/js/main.js",
+		"/C/Users/Jonathan/Documents/Websites/decaweb/boardmembers.json",
+		"/C/Users/Jonathan/Documents/Websites/decaweb/temp.html",
+		"/C/Users/Jonathan/Documents/Websites/brushed/Brushed/Template/brushed/index.html",
+		"/C/Users/Jonathan/AppData/Roaming/Sublime Text 3/Packages/QuickThemes/QuickThemes.sublime-settings",
+		"/C/Python27/Scripts/twistd.py",
+		"/C/Users/Jonathan/OneDrive/testtext.txt",
+		"/C/Users/Jonathan/OneDrive/Code/Source/parsedl/settings_local.py",
+		"/C/Users/Jonathan/Downloads/cmder/Readme.md",
+		"/C/Users/Jonathan/Downloads/Extras/BB/asdf.metalink",
+		"/C/Users/Jonathan/Downloads/Extras/BB/sdfgdgf.html",
+		"/C/Users/Jonathan/AppData/Roaming/Sublime Text 3/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc",
+		"/C/Users/Jonathan/Documents/Websites/decaweb/index.html.OLD2.html",
+		"/C/Users/Jonathan/Documents/Websites/decaweb/index4.html",
+		"/C/Users/Jonathan/Documents/Websites/decaweb/index3.html",
+		"/C/Users/Jonathan/Documents/Websites/decaweb/Brushed   Responsive One Page Template.html",
+		"/C/Users/Jonathan/Documents/Websites/decaweb/index.html.OLD",
+		"/C/Users/Jonathan/Documents/Websites/decaweb/index2.html",
+		"/C/Users/Jonathan/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/Jonathan/Documents/Websites/decaweb/_include/js/supersized.3.2.7.min.js",
+		"/C/Users/Jonathan/Documents/Websites/decaweb/_include/js/placeholder.js",
+		"/C/Users/Jonathan/Documents/bookmarks_8_10_14.html",
+		"/C/Users/Jonathan/OneDrive/Code/Source/parsedl/schoolLocs.json",
+		"/C/Users/Jonathan/Downloads/forest_view_marina/app/views/static_pages/features.html",
+		"/C/Users/Jonathan/Downloads/forest_view_marina/app/views/static_pages/fiberglass.slim",
+		"/C/Users/Jonathan/AppData/Roaming/Sublime Text 3/Packages/User/SublimePackageSync.sublime-settings",
+		"/C/Users/Jonathan/Documents/SLOT_NUM.txt",
+		"/C/Users/Jonathan/Downloads/Eufloria.v2.07.GAME-JAGUAR(1)/jaguar.nfo",
+		"//LUNA/User_Home/Common/Customers/Monosol, LLC/LaPorte/TANK CONTROL MODES.txt",
+		"/C/Users/Jonathan/OneDrive/Code/Source/parsedl/tests/oldcomments.py",
+		"/C/Users/Jonathan/OneDrive/Code/Source/parsedl/all_users.csv",
+		"/C/Users/Jonathan/OneDrive/Code/Source/parsedl/termtest.py",
+		"/C/Users/Jonathan/OneDrive/Code/Source/parsedl/termtest2 1.py",
+		"/C/Users/Jonathan/OneDrive/Code/Source/parsedl/termtest3.py",
+		"/C/Users/Jonathan/OneDrive/Code/Source/parsedl/termtest2.py",
+		"/C/Users/Jonathan/OneDrive/Code/Source/parsedl/tests.py",
+		"/C/Users/Jonathan/OneDrive/Code/Source/parsedl/all_users_head.xlsx",
+		"/C/Users/Jonathan/OneDrive/Code/Source/parsedl/all_users_head.csv",
+		"/C/Users/Jonathan/OneDrive/Code/Source/parsedl/testdownload 2.py",
+		"/C/Users/Jonathan/Documents/Websites/mhacksF2014/css/main.css",
+		"/C/Users/Jonathan/Documents/Websites/mhacksF2014/js/main.js",
+		"/C/Users/Jonathan/Documents/Websites/mhacksF2014/css/fireworks.css",
+		"/C/Users/Jonathan/Documents/Websites/mhacks notes.txt",
+		"/C/Users/Jonathan/Documents/Websites/mhacksF2014/index.html"
+	],
+	"find":
+	{
+		"height": 36.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"submiturl",
+			"baseurl",
+			"fileUploadName",
+			"['sel']",
+			"sel",
+			"dict(",
+			"controls",
+			"tuple()",
+			"self.",
+			"]",
+			"[",
+			"\"",
+			"True",
+			"ver",
+			"notverbosemode",
+			"verbosemode",
+			"...",
+			",",
+			"\\n",
+			"JobListItem",
+			"index",
+			"elt",
+			"ind",
+			"innerRawStr",
+			"read",
+			"utf",
+			"jobFields",
+			"Jitem",
+			"jobFieldTag",
+			"F",
+			"index",
+			"i",
+			"gapStr",
+			"proj",
+			"['",
+			" = scrapy.Field()",
+			"curr_listing",
+			"item",
+			"self",
+			"getNext",
+			"title",
+			"root_domain",
+			"sel",
+			"response.css('div.release-card')[0]",
+			"sites",
+			"videoFileName",
+			"Demo-Firefox/",
+			"<div class=\"desc\">Referrer:",
+			"<file name",
+			"\"title\"",
+			"projects",
+			"leaders",
+			"projects",
+			" font-icon-plus",
+			"!",
+			"\n",
+			"*",
+			"<!-- End Profile -->\n\n            <!-- Start Profile -->",
+			"Why Join",
+			"Committees",
+			"secID",
+			"events",
+			"Events",
+			"home",
+			"Name",
+			"color=t",
+			"color",
+			"People",
+			"style",
+			"                <small>\n                    <cite title=\"John Bostic\">John Bostic</cite>\n                </small>",
+			"/code",
+			"shoot_id/",
+			"content",
+			"slide-content",
+			"block",
+			"/code/",
+			"/code",
+			"shoot_id/",
+			"Contact",
+			"Committees",
+			"work",
+			"Our Work",
+			"#work",
+			"home-slider",
+			"schoolCounts",
+			"with",
+			"any",
+			"created_at",
+			"Backward \\f \"%bl2\"",
+			"Backward \\f \"%bl2\">%",
+			"0",
+			"()\n",
+			"testSchool1",
+			"'\n",
+			"v.pop",
+			"udict",
+			"()",
+			"	",
+			"\n",
+			"objectId",
+			"\n",
+			"objectId",
+			"requestAnimFrame",
+			"images",
+			"#bs-example-navbar-collapse-1 li:nth-child(",
+			"#bs-example-navbar-collapse-1 li:nth-child",
+			"temp",
+			"click nav-faq",
+			"Gailees@umich.edu",
+			"-"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"'",
+			"jobFields",
+			"join",
+			"Join",
+			"committees",
+			"Committees",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "umichemploymentscrape/dataManage.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 392,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								354,
+								354
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"incomplete_sync": null,
+							"sublime_auto_complete": true,
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "umichemploymentscrape/settings.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 733,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								733,
+								733
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"sublime_auto_complete": true,
+							"synced": false,
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 2,
+					"file": "umichemploymentscrape/items.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1778,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								796,
+								796
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content"
+							],
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"sublime_auto_complete": true,
+							"synced": false,
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 477.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "umichemploymentscrape/jobapp.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5648,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1814,
+								1814
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
+							],
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"incomplete_sync": null,
+							"sublime_auto_complete": true,
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 906.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/C/Users/Jonathan/OneDrive/Code/Source/extra/uniscrape/scrape1/scrape1/spiders/bangbros_spider.py",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 8259,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								276,
+								276
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/C/Users/Jonathan/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 715,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								305,
+								305
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"sublime_auto_complete": true,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.527086383602,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": false,
+	"output.autopep8":
+	{
+		"height": 122.0
+	},
+	"output.exec":
+	{
+		"height": 118.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git-commit":
+	{
+		"height": 122.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"project": "umichemploymentscrape.sublime-project",
+	"replace":
+	{
+		"height": 68.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 213.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

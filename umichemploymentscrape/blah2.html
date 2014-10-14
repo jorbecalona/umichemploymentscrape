@@ -1,0 +1,377 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="ChmStyle.css">
+<link rel="stylesheet" type="text/css" href="JobX.css">
+<link rel="stylesheet" type="text/css" href="css/chm/crmc.css">
+<title id="Skin_TitleElement">Your application has been submitted.</title>
+<script>
+	function clearDefault(el) {
+		if (el.defaultValue==el.value) el.value = ""
+	}
+
+	function restoreDefault(el) {
+		if (el.defaultValue!=el.value) el.value = el.defaultValue
+	}
+</script>
+<script language="javascript" src="scripts/overLib.js"></script>
+<script language="javascript" src="scripts/ChmJScriptLib.js"></script>
+<script language="javascript" src="scripts/PENodeTreeScript.js"></script>
+<script language="javascript" src="scripts/CrmcLib.js"></script>
+<!-- NextGen Site Monitor UMich -->
+</head>
+<body topmargin="0" leftmargin="0" align="left" onload="javascript:if (!document.Skin_SkinForm) document.Skin_SkinForm = document.forms[1];">
+<div id="overDiv" style="position:absolute; visibility:hidden; z-index:1000;"></div>
+<div id="crmc_e_div"> 
+     <table id="crmc_header" cellpadding="0" cellspacing="0" width="100%" border="0"><tr><td width="100%">&nbsp;</td><td><a href="javascript:void(0);" onclick="crmcCancelEditDiv();"><img src="images/c_win.gif" border="0"></a></td></tr></table> 
+     <span style="font-family: Tahoma, Verdana; font-size: 11px; float: left;"><b><i>Selected Items</i></b></span><span style="float: right; font-family: Tahoma, Verdana; font-size: 11px;"><a href="javascript:void(0);" onclick="RemoveAll();">[Remove All]</a></span><br><div id="crmc_s_list"></div><br> 
+     <span style="font-family: Tahoma, Verdana; font-size: 11px; float: left;"><b><i>Available Items</i></b></span><span style="float: right; font-family: Tahoma, Verdana; font-size: 11px;"><a href="javascript:void(0);" onclick="AddAll();">[Add All]</a></span><br><div id="crmc_a_list"></div><br> 
+     <div id="crmc_footer"></div> 
+</div>
+
+
+
+
+
+
+
+		<table width="770" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td>
+					<table width="770" border="0" cellspacing="0" cellpadding="0">
+						<tr>
+							<td><a href="http://www.umich.edu/"><img src="mich_images/master_michigan_MAXres_03.jpg" alt="" width="28" height="11" border="0"></a></td>
+							<td><img src="mich_images/master_michigan_MAXres_04.jpg" alt="" width="324" height="11" border="0"></td>
+							<td><a href="http://www.umich.edu/"><img src="mich_images/master_michigan_MAXres_05.jpg" alt="" width="66" height="11" border="0"></a></td>
+							<td><a href="https://wolverineaccess.umich.edu/index.jsp"><img src="mich_images/master_michigan_MAXres_06.jpg" alt="" width="106" height="11" border="0"></a></td>
+							<td><a href="http://www.finaid.umich.edu/"><img src="mich_images/master_michigan_MAXres_07.jpg" alt="" width="130" height="11" border="0"></a></td>
+							<td><a href='#' onclick="window.open('Cmx_Content.aspx?cpId=24','newWin', 'width=400,height=450,scrollbars=yes');" class="@CssClass"><img src="mich_images/master_michigan_MAXres_08a.jpg" alt="" width="115" height="11" border="0"></a></td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<table width="770" border="0" cellspacing="0" cellpadding="0">
+						<tr>
+                        <td colspan="3"><a href="Content.aspx?CbkId=26"><img src="mich_images/MastHead.png" alt=""border="0" width=769></a></td>
+<!--
+                            <td><a href="Content.aspx?CbkId=26"><img src="mich_images/master_michigan_MAXres_10.jpg" alt="" width="170" height="101" border="0"></a></td>
+							<td><img src="mich_images/master_michigan_MAXres_11.jpg" alt="" width="150" height="101" border="0"></td>
+							<td><img src="mich_images/master_michigan_MAXres_12.jpg" alt="" width="151" height="101" border="0"></td>
+                            <td><img src="mich_images/master_michigan_MAXres_13.jpg" alt="" width="147" height="101" border="0"></td>
+							<td><img src="mich_images/master_michigan_MAXres_14.jpg" alt="" width="151" height="101" border="0"></td>
+-->
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<!--<tr>
+				<td>
+					<table width="770" border="0" cellspacing="0" cellpadding="0">
+						<tr>
+							<td align="left"><a href="Content.aspx?CbkId=26"><img src="mich_images/master_michigan_MAXres_15.jpg" alt="" width="320" height="33" border="0"></a></td>
+							<td background="mich_images/master_michigan_MAXres_16.jpg" width="100%">&nbsp;</td>
+							<td align="right"><img src="mich_images/master_michigan_MAXres_18.jpg" alt="" width="187" height="33" border="0"></td>
+						</tr>
+					</table>
+				</td>
+			</tr>-->
+			<tr>
+				<td><img src="mich_images/master_michigan_MAXres_19.jpg" alt="" width="769" height="5" border="0"></td>
+			</tr>
+			<tr>
+				<td>
+					<table width="770" border="0" cellspacing="0" cellpadding="0">
+						<tr>
+							<td width="159" valign="top" align="left" bgcolor="ffffcc"><img src="mich_images/master_michigan_MAXres_20.gif" alt="" width="159" height="1" border="0">
+							<!-- nav -->
+								<table cellspacing="1" cellpadding="2" border="0">
+									<tr>
+										<td width="160">					
+											<table id="Skin_nav_NavBarDataList" cellspacing="0" border="0">
+	<tr>
+		<td>
+		<table><tr><td><img src="images/bullet.gif"></td><td><a class="ChameleonNavBarItem" href="Cmx_Content.aspx?cpId=11"  UM Student Employment Office Home   >UM Student Employment Office Home</a></td></tr></table>
+	</td>
+	</tr><tr>
+		<td>
+		&nbsp;
+	</td>
+	</tr><tr>
+		<td>
+		<table><tr><td><img src="images/bullet.gif"></td><td><a class="ChameleonNavBarItem" href="Cmx_Content.aspx?cpId=27"  Students Home Page   >UM Students</a></td></tr></table>
+	</td>
+	</tr><tr>
+		<td>
+		&nbsp;
+	</td>
+	</tr><tr>
+		<td>
+		<table><tr><td><img src="images/bullet.gif"></td><td><a class="ChameleonNavBarItem" href="JobX_FindAJob.aspx"  Find a Job   >Find a Job</a></td></tr></table>
+	</td>
+	</tr><tr>
+		<td>
+		&nbsp;
+	</td>
+	</tr><tr>
+		<td>
+		<table><tr><td><img src="images/bullet.gif"></td><td><a class="ChameleonNavBarItem" href="JobX_JobPlanner.aspx"  JobX Job Planner   >Job Planner</a></td></tr></table>
+	</td>
+	</tr><tr>
+		<td>
+		&nbsp;
+	</td>
+	</tr><tr>
+		<td>
+		<table><tr><td><img src="images/bullet.gif"></td><td><a class="ChameleonNavBarItem" href="Cmx_Content.aspx?cpId=18"  Important Dates (Students)   >Important Dates (Students)</a></td></tr></table>
+	</td>
+	</tr><tr>
+		<td>
+		&nbsp;
+	</td>
+	</tr><tr>
+		<td>
+		<table><tr><td><img src="images/bullet.gif"></td><td><a class="ChameleonNavBarItem" href="Cmx_Content.aspx?cpId=15"  Getting Paid and W-S Calculator/Tracking Sheet   >Getting Paid and W-S Calculator/Tracking Sheet</a></td></tr></table>
+	</td>
+	</tr><tr>
+		<td>
+		&nbsp;
+	</td>
+	</tr><tr>
+		<td>
+		<table><tr><td><img src="images/bullet.gif"></td><td><a class="ChameleonNavBarItem" href="Cmx_Content.aspx?cpId=12"  Other Resources   >Other Resources</a></td></tr></table>
+	</td>
+	</tr><tr>
+		<td>
+		&nbsp;
+	</td>
+	</tr><tr>
+		<td>
+		<table><tr><td><img src="images/bullet.gif"></td><td><a class="ChameleonNavBarItem" href="Cmx_Content.aspx?cpId=16"  Frequently Asked Questions (Students)   >Frequently Asked Questions (Students)</a></td></tr></table>
+	</td>
+	</tr><tr>
+		<td>
+		&nbsp;
+	</td>
+	</tr><tr>
+		<td>
+		<table><tr><td><img src="images/bullet.gif"></td><td><a class="ChameleonNavBarItem" href="Cux_Contact.aspx"  Contact us!   >Contact Us</a></td></tr></table>
+	</td>
+	</tr><tr>
+		<td>
+		&nbsp;
+	</td>
+	</tr><tr>
+		<td>
+		<table><tr><td><img src="images/bullet.gif"></td><td><a class="ChameleonNavBarItem" href="Cmx_Content.aspx?cpId=4"  Disclaimer (Students)   >Disclaimer (Students)</a></td></tr></table>
+	</td>
+	</tr>
+</table>
+
+										</td>
+									</tr>
+								</table>
+							</td>
+							<td valign="top">
+								<table width="100%" border="0" cellspacing="0" cellpadding="0">
+									<tr>
+										<td background="mich_images/master_michigan_MAXres_21.jpg" height="50" valign="top">&nbsp;<div align="right">
+<form action="Chm_Search.aspx" method="get">
+<table cellpadding="0" cellspacing="0" height="1" width="1" border="0">
+	<tr valign="top">
+		<td>
+			<input type="text" name="q" size="30" maxlength="200" id="q">
+			<INPUT TYPE="hidden" NAME="currentNav" VALUE="10"/>
+		</td>
+		<td><input type="image" src="images/top-findit_fresno.gif"></td>
+	</tr>
+</table>
+</form></div></td>
+									</tr>
+									<tr>
+										<td valign="top">
+											<table cellspacing="3" cellpadding="3" border="0">
+												<tr>
+													<td width="100%" valign="top">
+														<form name="aspnetForm" method="post" action="JobX_ApplyReceipt.aspx" id="aspnetForm" enctype="multipart/form-data">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUENTM4MQ9kFgJmD2QWCAIBDxYCHglpbm5lcmh0bWwFJFlvdXIgYXBwbGljYXRpb24gaGFzIGJlZW4gc3VibWl0dGVkLmQCAw9kFgJmD2QWAmYPPCsACQEADxYGHg1TZWxlY3RlZEluZGV4Av////8PHghEYXRhS2V5cxYAHgtfIUl0ZW1Db3VudAIKZBYUZg9kFgJmDxUHGENteF9Db250ZW50LmFzcHg/Y3BJZD0xMQAhVU0gU3R1ZGVudCBFbXBsb3ltZW50IE9mZmljZSBIb21lAAAAIVVNIFN0dWRlbnQgRW1wbG95bWVudCBPZmZpY2UgSG9tZWQCAg9kFgJmDxUHGENteF9Db250ZW50LmFzcHg/Y3BJZD0yNwASU3R1ZGVudHMgSG9tZSBQYWdlAAAAC1VNIFN0dWRlbnRzZAIED2QWAmYPFQcSSm9iWF9GaW5kQUpvYi5hc3B4AApGaW5kIGEgSm9iAAAACkZpbmQgYSBKb2JkAgYPZBYCZg8VBxRKb2JYX0pvYlBsYW5uZXIuYXNweAAQSm9iWCBKb2IgUGxhbm5lcgAAAAtKb2IgUGxhbm5lcmQCCA9kFgJmDxUHGENteF9Db250ZW50LmFzcHg/Y3BJZD0xOAAaSW1wb3J0YW50IERhdGVzIChTdHVkZW50cykAAAAaSW1wb3J0YW50IERhdGVzIChTdHVkZW50cylkAgoPZBYCZg8VBxhDbXhfQ29udGVudC5hc3B4P2NwSWQ9MTUALkdldHRpbmcgUGFpZCBhbmQgVy1TIENhbGN1bGF0b3IvVHJhY2tpbmcgU2hlZXQAAAAuR2V0dGluZyBQYWlkIGFuZCBXLVMgQ2FsY3VsYXRvci9UcmFja2luZyBTaGVldGQCDA9kFgJmDxUHGENteF9Db250ZW50LmFzcHg/Y3BJZD0xMgAPT3RoZXIgUmVzb3VyY2VzAAAAD090aGVyIFJlc291cmNlc2QCDg9kFgJmDxUHGENteF9Db250ZW50LmFzcHg/Y3BJZD0xNgAlRnJlcXVlbnRseSBBc2tlZCBRdWVzdGlvbnMgKFN0dWRlbnRzKQAAACVGcmVxdWVudGx5IEFza2VkIFF1ZXN0aW9ucyAoU3R1ZGVudHMpZAIQD2QWAmYPFQcQQ3V4X0NvbnRhY3QuYXNweAALQ29udGFjdCB1cyEAAAAKQ29udGFjdCBVc2QCEg9kFgJmDxUHF0NteF9Db250ZW50LmFzcHg/Y3BJZD00ABVEaXNjbGFpbWVyIChTdHVkZW50cykAAAAVRGlzY2xhaW1lciAoU3R1ZGVudHMpZAIFD2QWAmYPZBYCAgEPFgIeBFRleHQFMzxJTlBVVCBUWVBFPSJoaWRkZW4iIE5BTUU9ImN1cnJlbnROYXYiIFZBTFVFPSIxMCIvPmQCBw9kFgQCAQ8WAh8EZWQCBQ9kFgJmD2QWAmYPDxYCHwQFmgFZb3VyIFN0dWRlbnQgRGF0YSBBcHBsaWNhdGlvbiBoYXMgYmVlbiBzdWJtaXR0ZWQgdG8gdGhlIGVtcGxveWVyIHRvIGFwcGx5IGZvciB0aGlzIGpvYi4gIFlvdSB3aWxsIGhlYXIgZnJvbSB0aGUgZW1wbG95ZXIgZGlyZWN0bHkgcmVnYXJkaW5nIHRoaXMgcG9zaXRpb24uZGRkOvPKhItAKT27f1sBkfjKwxhQyow=" />
+
+<script language='javascript'>function MSDisable() { try{ if (Page_IsValid==false) return; window.setTimeout('MSDisableCtrls()',0);}catch(e){ window.setTimeout('MSDisableCtrls()',0);} }function MSDisableCtrls() { 
+ }</script>
+															
+															<br>
+															<span id="Skin_body_MessageLabel">Your Student Data Application has been submitted to the employer to apply for this job.  You will hear from the employer directly regarding this position.</span><br>
+<br>
+<a href="JobXPrintApp.aspx?ApiId=360226&JobId=29442" target="new" a>[View Printable Version]</a>
+<br>
+<br>
+Application Date: 09/29/2014<br><br><TABLE BORDER=0 CELLSPACING=1 CELLPADDING=4>
+	<TR height=15>
+    	<TD ALIGN="left" VALIGN="bottom" width=10></TD>
+		<td>
+			<table cellpadding="4" cellspacing="1" border="0" width="100%">
+				<tr>
+					<TD ALIGN="left" VALIGN="bottom" width="100%"></TD>
+					<td align="left" width="93"></td>
+				</tr>
+			</table>
+		</td>
+        <TD ALIGN="left" VALIGN="bottom" width=14></TD>
+	</TR>
+    <TR>
+    	<TD ALIGN="left" VALIGN="bottom" width=10 ></TD>
+        <TD width="100%">
+        	<table cellpadding=4 cellspacing=1 border=0  class="RTG" width="100%">
+
+            	<TR >
+                	
+
+<TD colspan="1" class='GraphicShell-Body1-Odd' >
+<b>1.&nbsp;First Name</b></TD>
+				</TR>
+
+            	<TR >
+                	
+
+<TD colspan="1" class='GraphicShell-Body1-Even' >
+first</TD>
+				</TR>
+
+            	<TR >
+                	
+
+<TD colspan="1" class='GraphicShell-Body1-Odd' >
+<b>2.&nbsp;Middle Name</b></TD>
+				</TR>
+
+            	<TR >
+                	
+
+<TD colspan="1" class='GraphicShell-Body1-Even' >
+mid</TD>
+				</TR>
+
+            	<TR >
+                	
+
+<TD colspan="1" class='GraphicShell-Body1-Odd' >
+<b>3.&nbsp;Last Name</b></TD>
+				</TR>
+
+            	<TR >
+                	
+
+<TD colspan="1" class='GraphicShell-Body1-Even' >
+last</TD>
+				</TR>
+
+            	<TR >
+                	
+
+<TD colspan="1" class='GraphicShell-Body1-Odd' >
+<b>4.&nbsp;E-mail Address</b></TD>
+				</TR>
+
+            	<TR >
+                	
+
+<TD colspan="1" class='GraphicShell-Body1-Even' >
+0403@em.edu</TD>
+				</TR>
+
+            	<TR >
+                	
+
+<TD colspan="1" class='GraphicShell-Body1-Odd' >
+<b>5.&nbsp;UMID</b></TD>
+				</TR>
+
+            	<TR >
+                	
+
+<TD colspan="1" class='GraphicShell-Body1-Even' >
+00010351</TD>
+				</TR>
+
+            	<TR >
+                	
+
+<TD colspan="1" class='GraphicShell-Body1-Odd' >
+<b>6.&nbsp;Briefly describe your skills and work experience pertaining to this job</b></TD>
+				</TR>
+
+            	<TR >
+                	
+
+<TD colspan="1" class='GraphicShell-Body1-Even' >
+skills</TD>
+				</TR>
+
+            	<TR >
+                	
+
+<TD colspan="1" class='GraphicShell-Body1-Odd' >
+<b>Resume Submitted:  Yes</b></TD>
+				</TR>
+
+            	<TR >
+                	
+
+<TD colspan="1" class='GraphicShell-Body1-Even' >
+<b><a href="JobX_ResumeDownloadDetail.aspx?ApiId=360226" target="new" a>[View Resume]</a></b></TD>
+				</TR>
+
+
+			</TABLE>
+		</TD>
+		<TD width="2"><IMG SRC="images/1px_clear.gif"></TD>
+	</TR>
+    <TR height=14>
+    	<TD ALIGN="left" VALIGN="bottom" width=10></TD>
+		<TD>
+			<TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0" WIDTH="100%">
+				<TR>
+					<TD></TD>
+					<TD ALIGN="left" VALIGN="bottom"  width="100%"><IMG SRC="images/1px_clear.gif"></TD>
+					<TD></TD>
+				</TR>
+			</TABLE>
+		</TD>
+		<TD ALIGN="left" VALIGN="bottom" width=38></TD>
+	</TR>
+</TABLE>
+
+<br>
+
+<br>
+<br>
+
+
+
+														</form>
+													</td>
+												</tr>
+											</table>
+										</td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+		<p></p>
+		<script type="text/javascript">
+		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+		</script>
+		<script type="text/javascript">
+		try {
+		var pageTracker = _gat._getTracker("UA-8867457-1");
+		pageTracker._trackPageview();
+} catch(err) {}</script>
+	</body>
+</html>
