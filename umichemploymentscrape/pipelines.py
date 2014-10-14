@@ -14,7 +14,7 @@ class UmichemploymentscrapePipeline(object):
 
 class JsonPipeline(object):
     def __init__(self):
-        self.file = open('jobs.json', 'wb')
+        self.file = open('jobsNew.json', 'wb')
 
     def process_item(self, item, spider):
         line = json.dumps(dict(item)) + "\n"

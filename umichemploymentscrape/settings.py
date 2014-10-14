@@ -15,10 +15,12 @@ NEWSPIDER_MODULE = 'umichemploymentscrape.spiders'
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'umichemploymentscrape (+http://www.yourdomain.com)'
+USER_AGENT = "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.116 Safari/537.36"
 
 LOG_FILE='scrape.log'
 
 ITEM_PIPELINES = {
-    # 'umichemploymentscrape.pipelines.UmichemploymentscrapePipeline': 2,
-    'umichemploymentscrape.pipelines.couchdbPipeline': 1
+    'umichemploymentscrape.pipelines.UmichemploymentscrapePipeline': 2
+    # 'umichemploymentscrape.pipelines.couchdbPipeline': 1
 }
+
